@@ -14,7 +14,7 @@ pipeline {
                 branch 'main'
             }
             steps {
-                sh 'echo "Test branch commit made!"'
+                sh 'echo "Test branch dd. commit made!"'
             }
         }
         stage('dev Branch') {
