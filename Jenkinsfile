@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                git branch: 'main', credentialsId: '1', url: 'https://github.com/aditya10mm/nodejs-multibranch.git'
+                #git branch: 'main', credentialsId: '1', url: 'https://github.com/aditya10mm/nodejs-multibranch.git'
             }
         }
         stage('main Branch') {
