@@ -4,11 +4,7 @@ pipeline {
         BRANCH_NAME = "${env.BRANCH_NAME}"
     }
     stages {
-        stage('checkout') {
-            steps {
-                git branch: 'main', credentialsId: '1', url: 'https://github.com/aditya10mm/nodejs-multibranch.git'
-            }
-        }
+       
         stage('main Branch') {
             when {
                 branch 'main'
