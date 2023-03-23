@@ -18,7 +18,7 @@ pipeline {
                 branch 'dev'
             }
             steps {
-                sh 'echo "Main branch commit made! hurrryyyyyaaaaaaaa"'
+                sh 'echo "Main branch commit made! jhvaishbcij hurrryyyyyaaaaaaaa"'
             }
         }
     }
