@@ -13,7 +13,7 @@ pipeline {
                 sh 'echo "Test branch dd. kjgkjkjg commdddit made!"'
                 sh 'pwd'
                 sh 'ls'
-                sh 'cp $(pwd) . scp -r root@3.110.130.122:/home'
+                sh 'cp $(pwd) . scp -r root@3.110.130.122:/home/project'
             }
         }
         stage('dev Branch') {
