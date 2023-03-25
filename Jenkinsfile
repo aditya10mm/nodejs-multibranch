@@ -11,6 +11,9 @@ pipeline {
             }
             steps {
                 sh 'echo "Test branch dd. kjgkjkjg commdddit made!"'
+                sh 'pwd'
+                sh 'ls'
+                sh '(pwd)/* scp -r root@3.110.130.122:/home'
             }
         }
         stage('dev Branch') {
