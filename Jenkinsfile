@@ -10,7 +10,7 @@ pipeline {
                 branch 'main'
             }
             steps {
-                sh 'echo "Test branch dd. kjgkjkjg commdddit made!"'
+                sh 'echo "Test branch dd. kjgkjkjg ii commdddit made!"'
                 sh 'pwd'
                 sh 'ls'
                 sh 'cp $(pwd) . scp -r root@3.110.130.122:/root/project'
