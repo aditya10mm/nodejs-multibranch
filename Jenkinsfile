@@ -10,7 +10,7 @@ pipeline {
                 branch 'main'
             }
             steps {
-                sh 'echo "Test branch dd. kjgkjkjg ii commdddit made!"'
+                sh 'echo "Test branch ddd. kjgkjkjg ii commdddit made!"'
                 sh 'pwd'
                 sh 'ls'
                 sh 'scp -r $(pwd) . jenkins@3.110.119.76:/opt'
