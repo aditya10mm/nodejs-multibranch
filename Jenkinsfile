@@ -15,11 +15,7 @@ pipeline {
                 sh 'ls'
                 sh 'scp -r $(pwd)/* root@172.24.191.79:/home'
                 sh '''
-                ssh root@172.24.191.79
-                pwd
-                cd /home
-                docker build -t adi .
-                docker run -d -p 82:8080 adi
+                ssh root@172.24.191.79 'pwd && cd /home && docker build -t adi . && docker run -d -p 82:8080 adi'
                 '''
               
             }
