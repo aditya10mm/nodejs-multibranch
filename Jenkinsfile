@@ -13,7 +13,7 @@ pipeline {
                 sh 'echo "Test branch ddd. kjgkjkjg ii commdddit made!"'
                 sh 'pwd'
                 sh 'ls'
-                sh 'scp -r $(pwd) . root@172.24.191.79:/home'
+                sh 'scp -r $(pwd)/* root@172.24.191.79:/home'
               
             }
         }
